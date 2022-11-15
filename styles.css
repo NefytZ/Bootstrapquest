@@ -1,26 +1,32 @@
 h1 {
-text-align: center;
-padding : 20px;
+    text-align: center;
+    padding: 20px;
 }
+
+.card-body {
+    min-height: 200px;
+}
+
+
 
 
 
 
 /*Medium devices (tablets, 768px and up)*/
-@media (max-width: 868px) { 
+@media (max-width: 768px) {
+
+    .card-text {
+        display: none;
+    }
 
 
-.card-text {
-display:none;
 }
- }
 
 
 
 /*Small devices (landscape phones, 576px and up)*/
-@media (max-width: 576px) { 
-
-.card-text {
-        display:none;
-        }
+@media (max-width: 576px) {
+    .nav-link {
+        display: none;
+    }
 }
